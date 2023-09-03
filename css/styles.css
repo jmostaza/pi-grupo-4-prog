@@ -1,0 +1,72 @@
+/*generales del header*/
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.sinestilo{
+    text-decoration: none;
+}
+
+.noBullets{
+    list-style-type: none;
+}
+
+
+/*Específicos*/
+.header {
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+}
+
+.logo {
+    width: 300px;
+}
+
+.ulHeader{
+    align-items: center;
+    flex-direction: row;
+    margin: 5px;
+    padding: 0px;
+}
+
+.aHeader{
+    color: lightblue;
+    font-family: "Quicksand",sans-serif;
+    margin: 15px;
+    padding: 15px;
+}
+.aHeader:hover {
+    color: rgb(173, 134, 210);
+}
+
+.cajaform{
+    align-self: center;
+}
+.form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: auto;
+    align-self: flex-end;
+}
+/* Header responsivo*/
+
+@media (max-width: 420px) {
+   .flex{
+        justify-content: center;
+        margin: 3px;
+   }
+    .header{
+        flex-direction: column;
+    }
+    .logo {
+        width: 200px;
+
+    }
+    .aHeader{
+        font-size: smaller;
+    }
+}
+
+
