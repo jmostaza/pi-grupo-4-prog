@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./footer.css">
+
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@700&display=swap"rel="stylesheet">
@@ -13,8 +14,158 @@
 
 <body>
     
-    <h1>Proyecto Integrador</h1>
-    <h2>subtitulo</h2>
+    <header class="header flex">
+        <section class="flex">
+            <img src="./img/Captura de Pantalla 2023-09-03 a la(s) 18.06.21.png" alt="logo" class="logo">
+        </section>
+
+
+        <nav class="flex">
+            <ul class="flex ulHeader">
+                <li class="noBullets"><a href="#" class="aHeader sinestilo">Home</a></li>
+                <li class="noBullets"><a href="#" class="aHeader sinestilo">Género</a></li>
+                <li class="noBullets"><a href="#" class="aHeader sinestilo">Favoritos</a></li>
+            </ul>
+        </nav>
+
+
+        <section class="flex">
+            <div class="cajaform">
+                <form class="form">
+                    <input type="text" placeholder="Buscar...">
+                    <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </section>
+
+    </header>
+
+    <main class="main">
+
+        <!--Lo más visto-->
+
+        <section class="caja_articles">
+            <h2 class="titulo_section">Lo más visto</h2>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/gossip.webp" alt="Portada Gossip girl">
+                    <p class="titulo_peliculas">Gossip girl</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/friends.jpg" alt="Portada friends">
+                    <p class="titulo_peliculas">Friends</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/manifest.jpg" alt="Portada Manifiesto">
+                    <p class="titulo_peliculas">Manifiesto</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/unaesposadementira.webp" alt="Portada Una esposa de mentira">
+                    <p class="titulo_peliculas">Una esposa de mentira</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/orgulloyprejucion.jpg" alt="Portada Orgullo y prejuicio">
+                    <p class="titulo_peliculas">Orgullo y prejuicio</p>
+                </article>
+            </a>
+        </section>
+
+        <!-- series mas valoradas-->
+        <section class="caja_articles">
+            <h2 class="titulo_section">Series más valoradas</h2>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/suits.webp" alt="Portada Suits">
+                    <p class="titulo_peliculas">Suits</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/breakingbad.webp" alt="Portada Breaking bad">
+                    <p class="titulo_peliculas">Breaking bad</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/bll.webp" alt="Portada Big little lies">
+                    <p class="titulo_peliculas">Big little lies</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/download.jpeg" alt="Portada The blacklist">
+                    <p class="titulo_peliculas">The blacklist</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/greys.webp" alt="Portada Greys anatomy">
+                    <p class="titulo_peliculas">Greys anatomy</p>
+                </article>
+            </a>
+        </section>
+
+        <!-- peliculas mas valoradas-->
+
+        <section class="caja_articles">
+            <h2 class="titulo_section">Películas más valoradas</h2>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/19545514.webp" alt="Portada el 3 metros sobre el cielo">
+                    <p class="titulo_peliculas">3 Metros sobre el cielo</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/DiarioDeUnaPasionPosterLA.webp"
+                        alt="Portada diario de una pasión">
+                    <p class="titulo_peliculas">Diario de una pasión</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/Milagro_en_la_celda_7-102392632-large.jpg"
+                        alt="Portada Milagro en la celda 7">
+                    <p class="titulo_peliculas">Milagro en la celda 7</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/Bluelaggon.webp" alt="Portada Blue Lagoon">
+                    <p class="titulo_peliculas">Blue Lagoon</p>
+                </article>
+            </a>
+            <a href="#">
+                <article class="articles">
+                    <img class="imgpelicula" src="./img/651744.jpg" alt="Portada Mamma Mia">
+                    <p class="titulo_peliculas">Mamma Mia</p>
+                </article>
+            </a>
+
+        </section>
+    </main>
+    <footer class="footer_class">
+        <section class="sect1">
+            <ul class="ulfooter">
+                <li class="itemfooter"><a href="#">Privacidad</a></li>
+                <li class="itemfooter"><a href="#">Terminos</a></li>
+                <li class="itemfooter"><a href="#">Ayuda</a></li>
+                <li class="itemfooter"><a href="#">FAQ</a></li>
+            </ul>
+        </section>
+
+        <section class="sect2">
+            <p class="miembros"> Mailen Freile, Maria Miranda y Julieta Mostaza</p>
+        </section>
+    </footer>
 
    
 </body>

@@ -116,6 +116,125 @@ a{
     font-family: 'Quicksand', sans-serif;
     text-align: center;}
 
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Quicksand', sans-serif;
+        background-color: #21201c;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .main {
+        background-color: #21201c;
+        padding: 100px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .titulo_section {
+        width: 100%;
+        color: rgb(212, 207, 227);
+        font-weight: bold;
+        font-family: 'Quicksand', sans-serif;
+        margin-left: 20px;
+        font-size: 200%;
+    }
+    
+    .caja_articles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #1b1a19;
+        padding: 20px;
+        margin-top: 1%;
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    .articles {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(73, 70, 79, 0.36);
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .articles:hover {
+        background-color: #470070;
+    }
+    
+    .titulo_peliculas {
+        color: rgb(212, 207, 227);
+        margin: 10px;
+        font-weight: bold;
+    }
+    
+    .titulo_peliculas:hover {
+        color: rgb(173, 134, 210);
+    }
+    
+    .imgpelicula {
+        width: 100%;
+        height: 300px; /* altura */
+        border-radius: 10px;
+        object-fit: cover; /*para que no se deformen las portadas*/
+    }
+    
+    @media (max-width:420px) {
+        .main {
+            padding: 5%;
+        }
+    
+        .titulo_section {
+            font-size: 150%;
+            margin: 5px 0;
+            margin-left: 15px;
+        }
+    
+        .caja_articles {
+            padding: 2%;
+            margin-top: 2%;
+            justify-content: center;
+            align-items: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            width: 100%;
+            flex-direction: row;
+         
+        }
+    
+        .articles {
+            width: 89%;
+            padding: 8px;
+            margin-top: 2%;
+            padding-top: 5%;
+        }
+      
+    
+        .titulo_peliculas {
+            font-size: 14px;
+        }
+    
+        .imgpelicula {
+            height: 360px;
+            width: 250px;
+        }
+    
+        a{
+            width: 100%;
+        }
+    }
+    
+
 @media (max-width: 420px) {
     .ulfooter {
         padding: 0px 0px;
