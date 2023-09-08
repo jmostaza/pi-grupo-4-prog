@@ -12,9 +12,7 @@
     list-style-type: none;
 }
 
-body {
-    background-color: #000000;
-}
+
 /*Específicos*/
 .header {
     background-color: rgb(0, 0, 0);
@@ -52,12 +50,22 @@ body {
     margin-right: auto;
     align-self: flex-end;
 }
+.boton-busqueda{
+    background-color:#300f5f;
+    color: #fff;
+    border-block: none;
+}
+.barra-buscadora {
+    background-color: #300f5f;
+    color: #fff;
+    border-block: none;
+}
 /* Header responsivo*/
 
 @media (max-width: 420px) {
    .flex{
         justify-content: center;
-        margin: 3px;
+        margin: 5px;
    }
     .header{
         flex-direction: column;
