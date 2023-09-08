@@ -410,5 +410,195 @@ a{
         height: 350px;
     }
 }
+/* detalle pelicula y detalle serie */
+body{
+    background-color: black;
+}
+
+.pagina{
+    display: flex;
+    justify-content: center;
+   color: white;
+}
+.informacion{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.informacion li {
+    font-size: 18px; 
+    margin-right: 20px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.verde{
+    color:green;
+}
+.informacion li .fa-clapperboard {
+    font-size: 24px; 
+    margin-right: 10px; 
+    }
+.serie{
+    color: rgba(142, 140, 140, 0.905);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 2px;
+    margin: 4px;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 241, 241);
+    font-size: 34px;
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 100%;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    border-radius:20px; 
+}
+.infopeli{
+    width: 63vw;
+    background-color: rgba(19, 18, 18, 0.075);
+    padding: 8px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;   
+}
+
+.descargar{
+    height: 40px;
+    font-weight: bold;
+}
+
+.reproducir{
+    height: 40px;
+    font-weight: bold;
+    background-color: #808080e6;
+}
+
+.nmr{
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+
+}
+.sinopsis{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+.elenco{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: grey;
+    margin-top: 7px;
+    margin-bottom:0px;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-around;
+
+}
+.caja1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.caja2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja1 i {
+    font-size: 15px; 
+   margin-top: 6px;
+}
+.caja2 i {
+    font-size: 15px; 
+   margin-top: 6px;
+}
+.caja3 i {
+    font-size: 15px; 
+   margin-top: 6px;
+}
+.caja1 p{
+    font-size: 15px;
+}
+.caja2 p{
+    font-size: 15px;
+}
+.caja3 p{
+    font-size: 15px;
+}
+.heart{
+    display: flex;
+    flex-direction: row;
+    color: red;
+    padding: 5px;
+    
+}
+.fa-heart:before {
+    content: "\f004";
+    margin-right: 5px;}
+
+.fa-heart {
+    font-size: 20px; 
+    }
+
+/* Responsive */
+@media (max-width: 460px) { 
+    .infopeli {
+        width: 85vw;
+        margin-top: 50px;
+
+    }
+    .contenedor2 {
+        margin-top: 30px;}
+    .titulo{
+        font-size: 33px;
+    }
+    .informacion{
+        flex-direction: column;
+        margin-top: 2px;
+    }
+   .heart{
+    margin-top: 10px;
+   }
+   img{
+    margin-bottom: 8px;
+   }
+}
 
 
