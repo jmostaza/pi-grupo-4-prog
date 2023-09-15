@@ -12,8 +12,6 @@
     list-style-type: none;
 }
 
-
-
 .main-background {
     background-color: black;
     display: flex;
@@ -22,6 +20,14 @@
 }
 
 /*Específicos*/
+.img-logo {
+    width: 33%;
+}
+.menu{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
 .header {
     background-color: rgb(0, 0, 0);
     justify-content: space-between;
@@ -73,6 +79,16 @@
     border-block: none;
 }
 
+.logo-movie{
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+}
+.busqueda-form{
+    display: flex;
+    width: 33%;
+    justify-content: flex-end;
+}
 /* Header responsivo*/
 
 @media (max-width: 420px) {
@@ -92,6 +108,27 @@
 
     .aHeader {
         font-size: smaller;
+    }
+
+    .img-logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 5px 0px;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 5px 0px;
+    }
+
+    .busqueda-form{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 5px 0px;
     }
 }
 
