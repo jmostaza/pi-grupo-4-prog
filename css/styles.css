@@ -83,7 +83,7 @@
     }
 
     .logo {
-        width: 200px;
+        width: 100%;
 
     }
 
@@ -167,6 +167,15 @@ a {
     margin-left: 20px;
     font-size: 200%;
 }
+.titulo_section_fav{
+    width: 100%;
+    color: rgb(212, 207, 227);
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 20px;
+    font-size: 200%;
+    text-align: center;
+}
 
 .caja_articles {
     display: flex;
@@ -178,9 +187,20 @@ a {
     border-radius: 10px;
     width: 100%;
 }
+.caja_articles_fav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1b1a19;
+    padding: 20px;
+    margin-top: 1%;
+    border-radius: 10px;
+    width: 70%;
+}
 
 .articles {
     width: 200px;
+    height: 410px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,6 +223,12 @@ a {
 
 .titulo_peliculas:hover {
     color: rgb(173, 134, 210);
+}
+
+.estreno_peliculas {
+    color: rgb(212, 207, 227);
+    margin: 0%;
+    font-size: small;
 }
 
 .imgpelicula {
