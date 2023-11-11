@@ -625,6 +625,7 @@ img {
     background-color: #1b1a19;
     padding: 8px;
     justify-content: center;
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
