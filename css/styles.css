@@ -232,8 +232,10 @@ a {
 
 .titulo_peliculas {
     color: rgb(212, 207, 227);
-    margin: 10px;
+    margin: 5px;
     font-weight: bold;
+    font-size: small;
+    text-align: center;
 }
 
 .titulo_peliculas:hover {

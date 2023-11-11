@@ -29,7 +29,7 @@ fetch(endpointMasVistos)
                                    <img class="imgpelicula" src="https://image.tmdb.org/t/p/w500/${ArrayDeMasVistas[i].poster_path}" alt="Portada Gossip girl">
                                    <p class="titulo_peliculas">${ArrayDeMasVistas[i].title}</p>
                                    <p class="estreno_peliculas">Estreno: ${ArrayDeMasVistas[i].release_date}</p>
-                                   <p class="estreno_peliculas">Rating:${ArrayDeMasVistas[i].popularity} </p>
+                                   
                               </article>
                               </a>`
     };
@@ -62,8 +62,8 @@ fetch(endpointSeries)
                               <article class="articles">
                                   <img class="imgpelicula" src="https://image.tmdb.org/t/p/w500/${ArraySeries[i].poster_path}" alt="Portada Suits">
                                   <p class="titulo_peliculas">${ArraySeries[i].name}</p>
-                                  <p class="estreno_peliculas">Estreno: 23/06/2011</p>
-                                  <p class="estreno_peliculas">Rating:${ArraySeries[i].popularity} </p>
+                                  <p class="estreno_peliculas">Estreno: ${ArraySeries[i].first_air_date}</p>
+                                  
                               </article>
                             </a>`
     };
@@ -96,7 +96,7 @@ fetch(endpointPeliculas)
                     <article class="articles">
                         <img class="imgpelicula" src="https://image.tmdb.org/t/p/w500/${ArrayPeliculas[i].poster_path}" alt="Portada el 3 metros sobre el cielo">
                         <p class="titulo_peliculas">${ArrayPeliculas[i].title}</p>
-                        <p class="estreno_peliculas">Estreno: 03/12/2010</p>
+                        <p class="estreno_peliculas">Estreno: ${ArrayPeliculas[i].release_date}</p>
                     </article>
                     </a>`
     };
