@@ -24,7 +24,7 @@ fetch(endpoint_genero_serie)
     // Recorro la información de la API y la organizo para mostrarla en el HTML
 
     for (let i=0; i<arrayGeneros.length; i++){
-        GenerosSeries += `<li class="item-genero"><a href="detallegenero.html?id=${arrayGeneros[i].id}">${arrayGeneros[i].name}</a></li>`
+        GenerosSeries += `<li class="item-genero"><a href="detallegenero.html?id=${arrayGeneros[i].id}&name=${arrayGeneros[i].name}">${arrayGeneros[i].name}</a></li>`
     };
     
     listadoGeneroSeries.innerHTML = GenerosSeries
@@ -49,7 +49,7 @@ fetch(endpoint_genero_pelicula)
     // Recorro la información de la API y la organizo para mostrarla en el HTML
 
     for (let i=0; i<arrayGenerosPelis.length; i++){
-        GenerosPelis += `<li class="item-genero"><a href="detallegenero.html?id=${arrayGenerosPelis[i].id}">${arrayGenerosPelis[i].name}</a></li>`;
+        GenerosPelis += `<li class="item-genero"><a href="detallegenero.html?id=${arrayGenerosPelis[i].id}&name=${arrayGenerosPelis[i].name}">${arrayGenerosPelis[i].name}</a></li>`;
     }
     
     
@@ -58,6 +58,5 @@ fetch(endpoint_genero_pelicula)
 }).catch(function (error) {
     return error
 })
-
 
 

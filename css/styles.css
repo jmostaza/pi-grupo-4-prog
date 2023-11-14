@@ -337,14 +337,10 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #1b1a19;
-    padding: 0px;
+    padding: 20px;
+    margin-top: 1%;
     border-radius: 10px;
-    max-width: 900px;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 90%;
    
 }
 
@@ -653,9 +649,9 @@ img {
     background-color: #470070;
 }
 
-.imgdiario {
-    width: 90%;
-    border-radius: 10px;
+.imgdiario{
+    height: 360px;
+    width: 250px;
 }
 
 .titd {
@@ -896,3 +892,33 @@ img {
         margin-bottom: 8px;
     }
 }
+
+  /* btn ver mas */
+
+  .btn-ver-mas {
+    background-color: #4700709a; 
+    color: white; 
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 20px; 
+    margin-top: 2%;
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 10px;
+}
+.btn-ver-mas:hover {
+    color: rgb(211, 192, 229);
+}
+
+/* loader */
+.loader {
+    text-align: center;
+    background: #4700709a;
+    padding: 1%;
+    margin-top: 2%;
+    border-radius: 10px;
+  }
+.buscando {
+    color: white;
+  }
+  
