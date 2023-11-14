@@ -84,6 +84,7 @@
     background-color: white;
     border-radius: 50%;
 }
+
 .busqueda-form{
     display: flex;
     width: 33%;
@@ -98,13 +99,23 @@ a {
     font-family: 'Quicksand', sans-serif;
 }
 
+.logo-section{
+    margin: 1%;
+}
+
+.logo-tmdb {
+    width: 100px; 
+    margin: 1%;
+    border-radius: 0%;
+}
 
 .footer_class {
     background-color: black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end;
     padding: 0px 20px;
+    justify-content: space-between;
 }
 
 .itemfooter {
