@@ -1,0 +1,21 @@
+Adicionales:
+    
+A- 
+Loader de carga en resultados de búsqueda: si la búsqueda tarda en cargar los 
+resultados deberá aparecer un spinner, gif animado o mensaje "Buscando…" que dé 
+al usuario referencia de que el proceso se está ejecutando. El elemento debe 
+ocultarse una vez que el contenido de la página se haya cargado por completo.
+Puntaje: 0,5.
+
+I -  
+Reviews: usando el endpoint "Reviews" mostrar los comentarios de los usuarios 
+en cada detalle (punto 4) de serie/ película. Los comentarios deben incluir el 
+autor y el texto del comentario. 
+Puntaje: 0,5. 
+
+J- 
+Más información: se pide que en las páginas que tienen listados (como resultados 
+de búsquedas, películas por géneros o las reviews) al llegar al final haya un 
+botón de “Ver más” que cargue la siguiente página de resultados. Deberán analizar l
+os datos que entrega el end point para identificar en dónde está el número de página. 
+Puntaje: 1.
