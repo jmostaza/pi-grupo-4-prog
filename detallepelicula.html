@@ -14,7 +14,7 @@
 
 <body>
     <header class="header flex">
-       
+
         <section class="img-logo">
             <img src="./img/logo-movie.png" class="logo-movie">
         </section>
@@ -31,69 +31,86 @@
         <section class="busqueda-form">
             <div class="cajaform">
                 <form class="form" action="./busqueda.html" method="get">
-                    <input type="text" class="barra-buscadora" placeholder="Buscar..."name="busqueda">
+                    <input type="text" class="barra-buscadora" placeholder="Buscar..." name="busqueda">
                     <button type="submit" class="boton-busqueda"> <i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
         </section>
 
-       
+
 
     </header>
     <main class="pagina">
         <section class="infopeli">
             <article class="imgdiseno">
-                <img src="./img/MIRACLE-IN-CELL-BANNER-1980x1020-1.jpeg" alt="milagro en la celda 7">
-          
-    
-    
-        <h3 class="titulo"> Milagro en la celda 7</h3>
-        <ul class="informacion">
-            <li class="verde">63% de coincidencia </li>
-            <li>2019</li>
-            <li>2 h 12 min</li>
-            <li class="deco"><i class="fa-solid fa-language"></i>  <i class="fa-solid fa-audio-description"></i>  <i class="fa-solid fa-video"></i>  </i></li>
-        </ul>
-       
-    </article>
-    <div class="heart">
-    <i class= "fa-solid fa-heart"></i> <p class="nmr"> N.7 en TV hoy</p>
-    </div>
-    
-    <div class="contenedor">
-        <label for=""></label>
-        <button type="button" class="reproducir"><i class="fa-solid fa-play"></i> Reproducir</button>
-        </div>
-    
-        <div class="contenedor-input">
-            <button type="button" class="descargar"><i class="fa-solid fa-download"></i> Descargar</button>
+                <img src="" alt="" class="imgpelicula">
+
+
+            </article>
+            <h3 class="titulo"></h3>
+            <ul class="informacion">
+                <li class="verde"></li>
+                <li class="fecha"></li>
+                <li class="duracion"></li>
+                <li class="deco"><i class="fa-solid fa-language"></i> <i class="fa-solid fa-audio-description"></i> <i
+                        class="fa-solid fa-video"></i> </i></li>
+            </ul>
+
+
+            <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+                <p class="nmr"> Rating: </p>
             </div>
-    
-            <p class="sinopsis">Separado de su hija, un padre con una discapacidad intelectual debe probar su inocencia al ser arrestado por la muerte de la niña de un comandante.</p>
-            <p class="elenco">Elenco: Aras Bulut, Nisa Sofiya, Denis Baysal ... más</p>
-            <a class="elenco" href="./detallegenero.html">Genero: Drama</a>
+
+            <div class="contenedor">
+                <label for=""></label>
+                <button type="button" class="reproducir"><i class="fa-solid fa-play"></i> Reproducir</button>
+            </div>
+
+            <div class="contenedor-input">
+                <button type="button" class="descargar"><i class="fa-solid fa-download"></i> Descargar</button>
+            </div>
+
+            <p class="sinopsis"></p>
+            <!--<p class="elenco">Elenco: Aras Bulut, Nisa Sofiya, Denis Baysal ... más</p> -->
+            <a class="elenco" href="./detallegenero.html">Genero: </a>
             <div class="contenedor2">
                 <div class="caja1">
-            <i class="fa-solid fa-paper-plane"></i> 
-        <p class="comp">Compartir</p>
-    </div>
-    
-    <div class="caja2">
-        </i><i class="fa-solid fa-plus fa-icon"></i>
-        <a class="Ml" href="#">Mi lista</a>
-    </div>
-    <div class="caja3">
-        <i class="fa-regular fa-thumbs-up fa-icon"></i>
-        <p class="Cal">Calificar</p>
-    </div>
-    </section>
-    </main>
-    <footer class="footer_class">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <p class="comp">Compartir</p>
+                </div>
 
-        <section class="logo-section">
-            <img src="./img/tmdb-logo.png" class="logo-tmdb">
+                <div class="caja2">
+                    </i><i class="fa-solid fa-plus fa-icon"></i>
+                    <a class="Ml" href="#">Mi lista</a>
+                </div>
+                <div class="caja3">
+                    <i class="fa-regular fa-thumbs-up fa-icon"></i>
+                    <p class="Cal">Calificar</p>
+                </div>
+        </section>
+        <section class="boton">
+            <button id="verRecomendaciones">Ver Recomendaciones</button>
+            <section class="reco_img">
+                <div id="recomendacionesDisplay" style ="display: none;">
+                    <ul>
+                        <li style= "display: none ;">No se encontraron recomendaciones ...</li>
+                        <ul id="recomendacionesList"></ul>
+                    </ul>
+                </div>
+            </section>
+            <button id="verComentarios">Ver Comentarios</button>
+            <div id="comentarioDisplay" style="display: none;">
+                <ul>
+                    <li> No hay reviews...</li>
+                    <ul id="comentarioList"></ul>
+                </ul>
+            </div>
         </section>
 
+
+    </main>
+    <footer class="footer_class">
         <section class="sect1">
             <ul class="ulfooter">
                 <li class="itemfooter"><a href="#">Privacidad</a></li>
@@ -107,7 +124,7 @@
             <p class="miembros"> Mailen Freile, Maria Miranda y Julieta Mostaza</p>
         </section>
     </footer>
-
+    <script src="../pi-grupo-4-prog/js/detallepelicula.js"></script>
 </body>
 
 </html>
