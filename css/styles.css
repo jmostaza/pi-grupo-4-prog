@@ -396,17 +396,41 @@ a {
     width: 100%;
     border-radius: 10px;
 }
-/* detalle pelicula y detalle serie */
 
+/* detalle pelicula y detalle serie */
+.reco{
+    width: 200px;
+    list-style-type: none;
+}
+
+.recoImg{
+    width: 150px;
+}
+
+
+ .imgpelicula {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
 .noResults {
     display: none;
 }
 
 .pagina {
     display: flex;
-    justify-content: center;
+    align-items: center;
     color: white;
     background-color: black;
+    flex-direction: column;
+}
+
+#recomendacionesDisplay{
+    display:flex !important;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .informacion {
@@ -462,8 +486,7 @@ img {
     padding: 8px;
     justify-content: center;
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column;}
 
 .contenedor-input {
     display: flex;
@@ -580,7 +603,6 @@ img {
     padding: 5px;
 
 }
-
 .fa-heart:before {
     content: "\f004";
     margin-right: 5px;
@@ -588,6 +610,34 @@ img {
 
 .fa-heart {
     font-size: 20px;
+}
+.articulo{
+    width: 250px;
+    height: 350px
+}
+.imgdiseno{
+    width: 200px;
+    height: 350px
+}
+
+.reco_img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    
+
+}
+.Titulo-reco-peli {
+    font-size: small;
+    margin: 10px;
+}
+
+.boton{
+    width: 100%;
+    display: block;
+    width: 63vw;
 }
 /* CSS de busqueda */
 .mainBusqueda {
