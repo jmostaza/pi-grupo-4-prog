@@ -949,9 +949,23 @@ img {
         margin-top: 10px;
     }
 
-    img {
+    .imgdiseno {
         margin-bottom: 8px;
+        max-width: 100%;
+        max-height: 330px;
     }
+
+    .reco_img{
+        flex-direction: row;
+
+    }
+    .recoImg {
+        width: 220px;
+    }
+    #recomendacionesDisplay {
+        flex-direction: column;
+    }
+
 }
 
   /* btn ver mas */

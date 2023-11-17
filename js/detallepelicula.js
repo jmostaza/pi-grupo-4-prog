@@ -105,7 +105,7 @@ document.getElementById('verComentarios').addEventListener('click', function() {
             let comentarios = data.results;
             let contenido = "";
 
-            for (let i = 0; i < 5; i++) {
+            for (let i = 0; i < 3; i++) {
                 // Agregar cada comentario a la lista
                 contenido += `<li class="comentario">
                                 <strong>${comentarios[i].author}</strong>: ${comentarios[i].content}
