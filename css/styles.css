@@ -101,10 +101,11 @@ a {
 
 .logo-section{
     margin: 1%;
+    width: 5%;
 }
 
 .logo-tmdb {
-    width: 100px; 
+    width: 10px; 
     margin: 1%;
     border-radius: 0%;
 }
@@ -120,7 +121,7 @@ a {
 
 .itemfooter {
     margin: 0px 10px;
-    display: flex;
+    display: inline-block;
     align-items: center;
     font-weight: bold;
 }
@@ -140,6 +141,8 @@ a {
     justify-content: space-around;
     height: 4vh;
     align-items: flex-end;
+    text-align: center;
+    font-size: large;
 }
 
 .miembros {
@@ -147,7 +150,13 @@ a {
     display: flex;
     align-items: flex-end;
     font-family: 'Quicksand', sans-serif;
-    text-align: center;
+    font-size: large;
+}
+
+
+
+.logo-tmdb{
+    width: 80%;
 }
 /* Home y favoritos*/
 
@@ -766,11 +775,12 @@ img {
         margin-top: 25px;
     }
     .diario{
-        width: 88%;
+        width: 91%;
         height: fit-content;
         padding: 8px;
         padding-top: 5%;
         margin: 2%;
+        flex-direction: column;
     }
     .buscados {
         display: flex;
@@ -795,6 +805,28 @@ img {
     }
     .a{
         width: 100%;
+    }
+
+/* Footer */
+    .logo-section{
+        width: 75%;
+        margin-top: 3%;
+    }
+    .sect1{
+        margin-bottom: 8%;
+        margin-right: 8%;
+    }
+    .ulfooter{
+        width: auto;
+    }
+    .footer_class{
+        align-items: flex-start;
+    }
+    .miembros{
+        font-size: small;
+    }
+    .itemfooter{
+        font-size: small;
     }
 /* Header responsivo*/
     .flex {
@@ -907,6 +939,7 @@ img {
     .caja-detalle-genero {
         width: 100%;
         margin: 0px 0;
+        padding-top: 0%;
     }
 
     .titulo_generos {
@@ -925,6 +958,11 @@ img {
         width: 300px;
         height: 350px;
     }
+    .imgdiario{
+        width: 85%;
+        height: 100%;
+    }
+   
 /* Responsive detalle pelicula y detalle serie */
     .infopeli {
         width: 85vw;
